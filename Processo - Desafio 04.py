@@ -11,7 +11,7 @@ elif resultado < 4:
 else:
         print ('Você vai precisar da prova final ')
 af = float(input('Digite a nota da sua prova final: '))
-nf = (av1 + av2 + af)/2
+nf = (av1 + av2 + af)/3
 if nf >=5:
         print('Parabéns! Você passou de ano.')
 else:
