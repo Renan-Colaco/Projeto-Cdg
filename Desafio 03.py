@@ -3,5 +3,5 @@ dragão = int(input('Quantos dragões existem?'))
 if herói < dragão*2:
     print('O herói não sobreviveu')
 else:
-    resto = herói // dragão
+    resto = herói - 2*dragão
     print('O herói sobreviveu, sobraram {} balas'.format(resto))
